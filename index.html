@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dutch Verbs Smart Trainer</title>
+    <title>Dutch Verbs Smart SRS</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="manifest" href="manifest.json">
@@ -17,16 +17,30 @@
     </header>
 
     <!-- Flashcard Container -->
-    <main class="flex-1 flex flex-col items-center justify-center max-w-md mx-auto w-full">
-        <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 w-full shadow-xl text-center min-h-[220px] flex flex-col justify-between">
+    <main class="flex-1 flex flex-col items-center justify-center max-w-lg mx-auto w-full my-4">
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 w-full shadow-xl text-center flex flex-col justify-between">
             <div id="card-front">
                 <span class="text-xs uppercase tracking-wider text-indigo-300 font-semibold">Ρήμα (Infinitive)</span>
                 <h2 id="verb-target" class="text-4xl font-extrabold mt-3">-</h2>
             </div>
             
-            <div id="card-back" class="hidden mt-4 pt-4 border-t border-slate-700">
-                <p class="text-lg text-emerald-400 font-medium" id="verb-translation">-</p>
-                <p class="text-sm text-slate-300 mt-2">Past: <span id="verb-past" class="font-mono text-amber-300">-</span></p>
+            <div id="card-back" class="hidden mt-4 pt-4 border-t border-slate-700 text-left space-y-3">
+                <!-- Μετάφραση (Κεντραρισμένη, χωρίς ταμπέλα) -->
+                <div class="text-center py-1">
+                    <p id="verb-translation" class="text-2xl text-emerald-400 font-semibold">-</p>
+                </div>
+
+                <!-- O.V.T. (Αόριστος ανά πρόσωπο) -->
+                <div class="bg-slate-900/60 p-3 rounded-xl border border-slate-700/50">
+                    <span class="text-xs font-semibold text-amber-300 uppercase block mb-1">Onvoltooid Verleden Tijd (O.V.T.)</span>
+                    <p id="verb-ovt" class="text-sm font-mono text-slate-200 leading-relaxed">-</p>
+                </div>
+
+                <!-- Voltooid Tegenwoordige Tijd (Παρακείμενος) -->
+                <div class="bg-slate-900/60 p-3 rounded-xl border border-slate-700/50">
+                    <span class="text-xs font-semibold text-indigo-300 uppercase block mb-1">Voltooid Tegenwoordige Tijd (O.T.T.)</span>
+                    <p id="verb-ott" class="text-sm font-mono text-slate-200 leading-relaxed">-</p>
+                </div>
             </div>
         </div>
 
@@ -50,42 +64,116 @@
 
     <!-- Script Λογική -->
     <script>
-        // Η λίστα με τα ρήματα (με ενσωματωμένο βάρος/weight για το SRS)
+        // Χρησιμοποιούμε HTML tags (<b>) μέσα στα strings για να γίνονται bold μόνο τα ρήματα
         let verbs = [
-            { id: "1", infinitive: "zijn", translation: "είμαι", past: "was / waren", weight: 1 },
-            { id: "2", infinitive: "hebben", translation: "έχω", past: "had / hadden", weight: 1 },
-            { id: "3", infinitive: "gaan", translation: "πηγαίνω", past: "ging / gingen", weight: 1 },
-            { id: "4", infinitive: "komen", translation: "έρχομαι", past: "kwam / kwamen", weight: 1 },
-            { id: "5", infinitive: "doen", translation: "κάνω", past: "deed / deden", weight: 1 },
-            { id: "6", infinitive: "laten", translation: "αφήνω / επιτρέπω", past: "lät / lieten", weight: 1 },
-            { id: "7", infinitive: "zien", translation: "βλέπω", past: "zag / zagen", weight: 1 },
-            { id: "8", infinitive: "horen", translation: "ακούω", past: "hoorde / hoorden", weight: 1 },
-            { id: "9", infinitive: "spreken", translation: "μιλάω", past: "sprak / spraken", weight: 1 },
-            { id: "10", infinitive: "zeggen", translation: "λέω", past: "zei / zeiden", weight: 1 },
-            { id: "11", infinitive: "weten", translation: "ξέρω", past: "wist / wisten", weight: 1 },
-            { id: "12", infinitive: "kennen", translation: "γνωρίζω", past: "kende / kenden", weight: 1 },
-            { id: "13", infinitive: "willen", translation: "θέλω", past: "wilde / wilden", weight: 1 },
-            { id: "14", infinitive: "kunnen", translation: "μπορώ", past: "kon / konden", weight: 1 },
-            { id: "15", infinitive: "moeten", translation: "πρέπει", past: "moest / moesten", weight: 1 },
-            { id: "16", infinitive: "mogen", translation: "επιτρέπεται", past: "mocht / mochten", weight: 1 },
-            { id: "17", infinitive: "kopen", translation: "αγοράζω", past: "kocht / kochten", weight: 1 },
-            { id: "18", infinitive: "verkopen", translation: "πουλάω", past: "verkocht / verkochten", weight: 1 },
-            { id: "19", infinitive: "werken", translation: "εργάζομαι", past: "werkte / werkten", weight: 1 },
-            { id: "20", infinitive: "lopen", translation: "περπατάω", past: "liep / liepen", weight: 1 }
+            { 
+                id: "1", 
+                infinitive: "zijn", 
+                translation: "είμαι", 
+                ovt: "ik <b>was</b>, jij/u/hij/zij/het <b>was</b>, we/jullie/ze <b>waren</b>", 
+                ott: "ik <b>ben geweest</b>, jij/u/hij/zij/het <b>is geweest</b>, we/jullie/ze <b>zijn geweest</b>", 
+                weight: 1 
+            },
+            { 
+                id: "2", 
+                infinitive: "hebben", 
+                translation: "έχω", 
+                ovt: "ik <b>had</b>, jij/u/hij/zij/het <b>had</b>, we/jullie/ze <b>hadden</b>", 
+                ott: "ik <b>heb gehad</b>, jij/u/hij/zij/het <b>heeft gehad</b>, we/jullie/ze <b>hebben gehad</b>", 
+                weight: 1 
+            },
+            { 
+                id: "3", 
+                infinitive: "gaan", 
+                translation: "πηγαίνω", 
+                ovt: "ik <b>ging</b>, jij/u/hij/zij/het <b>ging</b>, we/jullie/ze <b>gingen</b>", 
+                ott: "ik <b>ben gegaan</b>, jij/u/hij/zij/het <b>is gegaan</b>, we/jullie/ze <b>zijn gegaan</b>", 
+                weight: 1 
+            },
+            { 
+                id: "4", 
+                infinitive: "komen", 
+                translation: "έρχομαι", 
+                ovt: "ik <b>kwam</b>, jij/u/hij/zij/het <b>kwam</b>, we/jullie/ze <b>kwamen</b>", 
+                ott: "ik <b>ben gekomen</b>, jij/u/hij/zij/het <b>is gekomen</b>, we/jullie/ze <b>zijn gekomen</b>", 
+                weight: 1 
+            },
+            { 
+                id: "5", 
+                infinitive: "doen", 
+                translation: "κάνω", 
+                ovt: "ik <b>deed</b>, jij/u/hij/zij/het <b>deed</b>, we/jullie/ze <b>deden</b>", 
+                ott: "ik <b>heb gedaan</b>, jij/u/hij/zij/het <b>heeft gedaan</b>, we/jullie/ze <b>hebben gedaan</b>", 
+                weight: 1 
+            },
+            { 
+                id: "6", 
+                infinitive: "zien", 
+                translation: "βλέπω", 
+                ovt: "ik <b>zag</b>, jij/u/hij/zij/het <b>zag</b>, we/jullie/ze <b>zagen</b>", 
+                ott: "ik <b>heb gezien</b>, jij/u/hij/zij/het <b>heeft gezien</b>, we/jullie/ze <b>hebben gezien</b>", 
+                weight: 1 
+            },
+            { 
+                id: "7", 
+                infinitive: "spreken", 
+                translation: "μιλάω", 
+                ovt: "ik <b>sprak</b>, jij/u/hij/zij/het <b>sprak</b>, we/jullie/ze <b>spraken</b>", 
+                ott: "ik <b>heb gesproken</b>, jij/u/hij/zij/het <b>heeft gesproken</b>, we/jullie/ze <b>hebben gesproken</b>", 
+                weight: 1 
+            },
+            { 
+                id: "8", 
+                infinitive: "zeggen", 
+                translation: "λέω", 
+                ovt: "ik <b>zei</b>, jij/u/hij/zij/het <b>zei</b>, we/jullie/ze <b>zeiden</b>", 
+                ott: "ik <b>heb gezegd</b>, jij/u/hij/zij/het <b>heeft gezegd</b>, we/jullie/ze <b>hebben gezegd</b>", 
+                weight: 1 
+            },
+            { 
+                id: "9", 
+                infinitive: "weten", 
+                translation: "ξέρω", 
+                ovt: "ik <b>wist</b>, jij/u/hij/zij/het <b>wist</b>, we/jullie/ze <b>wisten</b>", 
+                ott: "ik <b>heb geweten</b>, jij/u/hij/zij/het <b>heeft geweten</b>, we/jullie/ze <b>hebben geweten</b>", 
+                weight: 1 
+            },
+            { 
+                id: "10", 
+                infinitive: "willen", 
+                translation: "θέλω", 
+                ovt: "ik <b>wilde</b>, jij/u/hij/zij/het <b>wilde</b>, we/jullie/ze <b>wilden</b>", 
+                ott: "ik <b>heb gewild</b>, jij/u/hij/zij/het <b>heeft gewild</b>, we/jullie/ze <b>hebben gewild</b>", 
+                weight: 1 
+            },
+            { 
+                id: "11", 
+                infinitive: "kunnen", 
+                translation: "μπορώ", 
+                ovt: "ik <b>kon</b>, jij/u/hij/zij/het <b>kon</b>, we/jullie/ze <b>konden</b>", 
+                ott: "ik <b>heb gekund</b>, jij/u/hij/zij/het <b>heeft gekund</b>, we/jullie/ze <b>hebben gekund</b>", 
+                weight: 1 
+            },
+            { 
+                id: "12", 
+                infinitive: "moeten", 
+                translation: "πρέπει", 
+                ovt: "ik <b>moest</b>, jij/u/hij/zij/het <b>moest</b>, we/jullie/ze <b>moesten</b>", 
+                ott: "ik <b>heb gemoeten</b>, jij/u/hij/zij/het <b>heeft gemoeten</b>, we/jullie/ze <b>hebben gemoeten</b>", 
+                weight: 1 
+            }
         ];
 
         let currentVerbIndex = null;
 
         function initApp() {
-            // Αν υπάρχουν αποθηκευμένα δεδομένα στο κινητό, τα φορτώνουμε για να μη χάνεται η πρόοδος
-            const saved = localStorage.getItem('smart_verbs_srs');
+            const saved = localStorage.getItem('smart_verbs_srs_v3');
             if (saved) {
                 try { verbs = JSON.parse(saved); } catch(e) {}
             }
             loadNextCard();
         }
 
-        // Επιλέγει τυχαίο ρήμα με βάση το weight (όσο μεγαλύτερο weight, τόσο πιο πιθανό να βγει)
         function getWeightedRandomIndex() {
             let totalWeight = verbs.reduce((sum, v) => sum + v.weight, 0);
             let randomNum = Math.random() * totalWeight;
@@ -103,16 +191,15 @@
             currentVerbIndex = getWeightedRandomIndex();
             const current = verbs[currentVerbIndex];
 
-            // Ενημέρωση UI
+            // Ενημέρωση UI (Χρησιμοποιούμε innerHTML αντί για innerText στα ρήματα για να διαβάζει τα <b> tags)
             document.getElementById('verb-target').innerText = current.infinitive;
             document.getElementById('verb-translation').innerText = current.translation;
-            document.getElementById('verb-past').innerText = current.past;
+            document.getElementById('verb-ovt').innerHTML = current.ovt;
+            document.getElementById('verb-ott').innerHTML = current.ott;
 
-            // Υπολογισμός στατιστικών (πόσα ρήματα έχουν αυξημένο βάρος)
             let learningCount = verbs.filter(v => v.weight > 1).length;
-            document.getElementById('stats').innerText = `Ενεργά προς εξάσκηση: ${verbs.length} | Σε επανάληψη (Ξανά): ${learningCount}`;
+            document.getElementById('stats').innerText = `Σύνολο: ${verbs.length} | Σε επανάληψη (Ξανά): ${learningCount}`;
 
-            // Reset οθόνης κάρτας
             document.getElementById('card-back').classList.add('hidden');
             document.getElementById('btn-show').classList.remove('hidden');
             document.getElementById('choice-buttons').classList.add('hidden');
@@ -128,17 +215,12 @@
             let current = verbs[currentVerbIndex];
 
             if (choice === 'again') {
-                // Αυξάνουμε το βάρος ώστε να εμφανίζεται πιο συχνά
                 current.weight += 2;
             } else {
-                // Μειώνουμε το βάρος προς το 1 (κανονική συχνότητα) όσο το βρίσκεις
                 current.weight = Math.max(1, current.weight - 1);
             }
 
-            // Αποθήκευση στο localStorage του κινητού
-            localStorage.setItem('smart_verbs_srs', JSON.stringify(verbs));
-
-            // Φόρτωση επόμενου
+            localStorage.setItem('smart_verbs_srs_v3', JSON.stringify(verbs));
             loadNextCard();
         }
 
