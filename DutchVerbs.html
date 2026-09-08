@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dutch Verbs Smart Trainer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between p-4">
+
+    <!-- Header -->
+    <header class="text-center py-2">
+        <h1 class="text-2xl font-bold text-indigo-400">🇳🇱 Dutch Verbs Smart SRS</h1>
+        <p id="stats" class="text-xs text-slate-400 mt-2">Φόρτωση...</p>
+    </header>
+
+    <!-- Flashcard Container -->
+    <main class="flex-1 flex flex-col items-center justify-center max-w-md mx-auto w-full">
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 w-full shadow-xl text-center min-h-[220px] flex flex-col justify-between">
+            <div id="card-front">
+                <span class="text-xs uppercase tracking-wider text-indigo-300 font-semibold">Ρήμα (Infinitive)</span>
+                <h2 id="verb-target" class="text-4xl font-extrabold mt-3">-</h2>
+            </div>
+            
+            <div id="card-back" class="hidden mt-4 pt-4 border-t border-slate-700">
+                <p class="text-lg text-emerald-400 font-medium" id="verb-translation">-</p>
+                <p class="text-sm text-slate-300 mt-2">Past: <span id="verb-past" class="font-mono text-amber-300">-</span></p>
+            </div>
+        </div>
+
+        <!-- Action Area -->
+        <div id="action-area" class="w-full mt-6">
+            <button onclick="revealCard()" id="btn-show" class="w-full bg-indigo-600 hover:bg-indigo-500 font-bold py-3 px-6 rounded-xl transition shadow-lg">
+                Εμφάνιση Απάντησης
+            </button>
+
+            <!-- Choice Buttons (Επόμενο / Ξανά) -->
+            <div id="choice-buttons" class="hidden grid grid-cols-2 gap-3 w-full">
+                <button onclick="handleChoice('again')" class="bg-rose-600 hover:bg-rose-500 py-3 rounded-xl font-bold text-sm transition shadow-lg">
+                    🔄 Ξανά (Πιο συχνά)
+                </button>
+                <button onclick="handleChoice('next')" class="bg-emerald-600 hover:bg-emerald-500 py-3 rounded-xl font-bold text-sm transition shadow-lg">
+                    ✔️ Επόμενο (Λιγότερο)
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Script Λογική -->
+    <script>
+        // Η λίστα με τα ρήματα (με ενσωματωμένο βάρος/weight για το SRS)
+        let verbs = [
+            { id: "1", infinitive: "zijn", translation: "είμαι", past: "was / waren", weight: 1 },
+            { id: "2", infinitive: "hebben", translation: "έχω", past: "had / hadden", weight: 1 },
+            { id: "3", infinitive: "gaan", translation: "πηγαίνω", past: "ging / gingen", weight: 1 },
+            { id: "4", infinitive: "komen", translation: "έρχομαι", past: "kwam / kwamen", weight: 1 },
+            { id: "5", infinitive: "doen", translation: "κάνω", past: "deed / deden", weight: 1 },
+            { id: "6", infinitive: "laten", translation: "αφήνω / επιτρέπω", past: "lät / lieten", weight: 1 },
+            { id: "7", infinitive: "zien", translation: "βλέπω", past: "zag / zagen", weight: 1 },
+            { id: "8", infinitive: "horen", translation: "ακούω", past: "hoorde / hoorden", weight: 1 },
+            { id: "9", infinitive: "spreken", translation: "μιλάω", past: "sprak / spraken", weight: 1 },
+            { id: "10", infinitive: "zeggen", translation: "λέω", past: "zei / zeiden", weight: 1 },
+            { id: "11", infinitive: "weten", translation: "ξέρω", past: "wist / wisten", weight: 1 },
+            { id: "12", infinitive: "kennen", translation: "γνωρίζω", past: "kende / kenden", weight: 1 },
+            { id: "13", infinitive: "willen", translation: "θέλω", past: "wilde / wilden", weight: 1 },
+            { id: "14", infinitive: "kunnen", translation: "μπορώ", past: "kon / konden", weight: 1 },
+            { id: "15", infinitive: "moeten", translation: "πρέπει", past: "moest / moesten", weight: 1 },
+            { id: "16", infinitive: "mogen", translation: "επιτρέπεται", past: "mocht / mochten", weight: 1 },
+            { id: "17", infinitive: "kopen", translation: "αγοράζω", past: "kocht / kochten", weight: 1 },
+            { id: "18", infinitive: "verkopen", translation: "πουλάω", past: "verkocht / verkochten", weight: 1 },
+            { id: "19", infinitive: "werken", translation: "εργάζομαι", past: "werkte / werkten", weight: 1 },
+            { id: "20", infinitive: "lopen", translation: "περπατάω", past: "liep / liepen", weight: 1 }
+        ];
+
+        let currentVerbIndex = null;
+
+        function initApp() {
+            // Αν υπάρχουν αποθηκευμένα δεδομένα στο κινητό, τα φορτώνουμε για να μη χάνεται η πρόοδος
+            const saved = localStorage.getItem('smart_verbs_srs');
+            if (saved) {
+                try { verbs = JSON.parse(saved); } catch(e) {}
+            }
+            loadNextCard();
+        }
+
+        // Επιλέγει τυχαίο ρήμα με βάση το weight (όσο μεγαλύτερο weight, τόσο πιο πιθανό να βγει)
+        function getWeightedRandomIndex() {
+            let totalWeight = verbs.reduce((sum, v) => sum + v.weight, 0);
+            let randomNum = Math.random() * totalWeight;
+            
+            for (let i = 0; i < verbs.length; i++) {
+                if (randomNum < verbs[i].weight) {
+                    return i;
+                }
+                randomNum -= verbs[i].weight;
+            }
+            return 0;
+        }
+
+        function loadNextCard() {
+            currentVerbIndex = getWeightedRandomIndex();
+            const current = verbs[currentVerbIndex];
+
+            // Ενημέρωση UI
+            document.getElementById('verb-target').innerText = current.infinitive;
+            document.getElementById('verb-translation').innerText = current.translation;
+            document.getElementById('verb-past').innerText = current.past;
+
+            // Υπολογισμός στατιστικών (πόσα ρήματα έχουν αυξημένο βάρος)
+            let learningCount = verbs.filter(v => v.weight > 1).length;
+            document.getElementById('stats').innerText = `Ενεργά προς εξάσκηση: ${verbs.length} | Σε επανάληψη (Ξανά): ${learningCount}`;
+
+            // Reset οθόνης κάρτας
+            document.getElementById('card-back').classList.add('hidden');
+            document.getElementById('btn-show').classList.remove('hidden');
+            document.getElementById('choice-buttons').classList.add('hidden');
+        }
+
+        function revealCard() {
+            document.getElementById('card-back').classList.remove('hidden');
+            document.getElementById('btn-show').classList.add('hidden');
+            document.getElementById('choice-buttons').classList.remove('hidden');
+        }
+
+        function handleChoice(choice) {
+            let current = verbs[currentVerbIndex];
+
+            if (choice === 'again') {
+                // Αυξάνουμε το βάρος ώστε να εμφανίζεται πιο συχνά
+                current.weight += 2;
+            } else {
+                // Μειώνουμε το βάρος προς το 1 (κανονική συχνότητα) όσο το βρίσκεις
+                current.weight = Math.max(1, current.weight - 1);
+            }
+
+            // Αποθήκευση στο localStorage του κινητού
+            localStorage.setItem('smart_verbs_srs', JSON.stringify(verbs));
+
+            // Φόρτωση επόμενου
+            loadNextCard();
+        }
+
+        initApp();
+    </script>
+</body>
+</html>
