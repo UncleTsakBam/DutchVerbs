@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dutch Verbs Smart SRS</title>
+    <title>Dutch Verbs</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="manifest" href="manifest.json">
 </head>
@@ -11,7 +11,7 @@
 
     <!-- Header -->
     <header class="text-center py-2">
-        <h1 class="text-2xl font-bold text-indigo-400">🇳🇱 Dutch Verbs Smart SRS</h1>
+        <h1 class="text-2xl font-bold text-indigo-400">🇳🇱 Dutch Verbs</h1>
         <p id="stats" class="text-xs text-slate-400 mt-2">Φόρτωση δεδομένων...</p>
     </header>
 
@@ -98,6 +98,21 @@
             loadNextCard();
         }
 
+        function getWeightedRandomCard(verbsArray) {
+            // Τα πρώτα 100 ρήματα παίρνουν τριπλάσιο βάρος (3x πιθανότητα εμφάνισης)
+            const weights = verbsArray.map((_, index) => (index < 100 ? 3 : 1));
+            const totalWeight = weights.reduce((sum, w) => sum + w, 0);
+            
+            let randomNum = Math.random() * totalWeight;
+            for (let i = 0; i < verbsArray.length; i++) {
+                if (randomNum < weights[i]) {
+                    return verbsArray[i];
+                }
+                randomNum -= weights[i];
+            }
+            return verbsArray[0];
+        }
+        
         function getWeightedRandomIndex() {
             let totalWeight = verbs.reduce((sum, v) => sum + v.weight, 0);
             let randomNum = Math.random() * totalWeight;
@@ -114,7 +129,7 @@
         function loadNextCard() {
             if (verbs.length === 0) return;
             currentVerbIndex = getWeightedRandomIndex();
-            const current = verbs[currentVerbIndex];
+            const current = getWeightedRandomCard(verbs);
 
             document.getElementById('verb-target').innerText = current.infinitive;
             document.getElementById('verb-translation').innerText = current.translation;
