@@ -1,15 +1,6 @@
 const verbsData = [
   {
     "id": "1",
-    "infinitive": "hebben",
-    "translation": "έχω",
-    "ovt1": "had",
-    "ovt2": "hadden",
-    "vtt": "hebben gehad",
-    "weight": 1
-  },
-  {
-    "id": "2",
     "infinitive": "zijn",
     "translation": "είμαι",
     "ovt1": "was",
@@ -18,7 +9,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "3",
+    "id": "2",
     "infinitive": "leren",
     "translation": "μαθαίνω",
     "ovt1": "leerde",
@@ -27,7 +18,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "4",
+    "id": "3",
     "infinitive": "praten",
     "translation": "μιλάω",
     "ovt1": "praatte",
@@ -36,7 +27,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "5",
+    "id": "4",
     "infinitive": "helpen",
     "translation": "βοηθάω",
     "ovt1": "hielp",
@@ -45,7 +36,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "6",
+    "id": "5",
     "infinitive": "heten",
     "translation": "ονομάζομαι",
     "ovt1": "heette",
@@ -54,7 +45,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "7",
+    "id": "6",
     "infinitive": "komen",
     "translation": "έρχομαι",
     "ovt1": "kwam",
@@ -63,7 +54,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "8",
+    "id": "7",
     "infinitive": "zeggen",
     "translation": "λέω",
     "ovt1": "zei",
@@ -72,7 +63,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "9",
+    "id": "8",
     "infinitive": "leven",
     "translation": "ζω",
     "ovt1": "leefde",
@@ -81,7 +72,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "10",
+    "id": "9",
     "infinitive": "begrijpen",
     "translation": "καταλαβαίνω",
     "ovt1": "begreep",
@@ -90,7 +81,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "11",
+    "id": "10",
     "infinitive": "gaan",
     "translation": "πηγαίνω",
     "ovt1": "ging",
@@ -99,7 +90,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "12",
+    "id": "11",
     "infinitive": "regenen",
     "translation": "βρέχει",
     "ovt1": "regende",
@@ -108,7 +99,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "13",
+    "id": "12",
     "infinitive": "kopen",
     "translation": "αγοράζω",
     "ovt1": "kocht",
@@ -117,7 +108,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "14",
+    "id": "13",
     "infinitive": "willen",
     "translation": "θέλω",
     "ovt1": "wilde/wou",
@@ -126,7 +117,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "15",
+    "id": "14",
     "infinitive": "kunnen",
     "translation": "μπορώ",
     "ovt1": "kon",
@@ -135,7 +126,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "16",
+    "id": "15",
     "infinitive": "moeten",
     "translation": "πρέπει",
     "ovt1": "moest",
@@ -144,7 +135,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "17",
+    "id": "16",
     "infinitive": "zullen",
     "translation": "θα / να (πρόταση)",
     "ovt1": "zou",
@@ -153,7 +144,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "18",
+    "id": "17",
     "infinitive": "mogen",
     "translation": "επιτρέπεται να",
     "ovt1": "mocht",
@@ -162,7 +153,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "19",
+    "id": "18",
     "infinitive": "laten",
     "translation": "αφήνω",
     "ovt1": "liet",
@@ -171,7 +162,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "20",
+    "id": "19",
     "infinitive": "hoeven",
     "translation": "είμαι υποχρεωμένος να",
     "ovt1": "hoefde",
@@ -180,7 +171,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "21",
+    "id": "20",
     "infinitive": "trowen",
     "translation": "παντρεύομαι/ εμπιστεύομαι",
     "ovt1": "trouwde",
@@ -189,7 +180,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "22",
+    "id": "21",
     "infinitive": "vertrouwen",
     "translation": "εμπιστεύομαι",
     "ovt1": "vertrouwde",
@@ -198,7 +189,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "23",
+    "id": "22",
     "infinitive": "rusten",
     "translation": "ξεκουράζομαι",
     "ovt1": "rustte",
@@ -207,7 +198,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "24",
+    "id": "23",
     "infinitive": "slapen",
     "translation": "κοιμάμαι",
     "ovt1": "sliep",
@@ -216,7 +207,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "25",
+    "id": "24",
     "infinitive": "doen",
     "translation": "κάνω",
     "ovt1": "deed",
@@ -225,7 +216,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "26",
+    "id": "25",
     "infinitive": "eten",
     "translation": "τρώω",
     "ovt1": "at",
@@ -234,7 +225,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "27",
+    "id": "26",
     "infinitive": "nemen",
     "translation": "παίρνω (take)",
     "ovt1": "nam",
@@ -243,7 +234,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "28",
+    "id": "27",
     "infinitive": "halen",
     "translation": "παίρνω (take)",
     "ovt1": "haalde",
@@ -252,7 +243,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "29",
+    "id": "28",
     "infinitive": "krijgen",
     "translation": "παίρνω (get)",
     "ovt1": "kreeg",
@@ -261,7 +252,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "30",
+    "id": "29",
     "infinitive": "blijven",
     "translation": "μένω",
     "ovt1": "bleef",
@@ -270,7 +261,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "31",
+    "id": "30",
     "infinitive": "reizen",
     "translation": "ταξιδεύω",
     "ovt1": "reisde",
@@ -279,7 +270,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "32",
+    "id": "31",
     "infinitive": "kijken",
     "translation": "βλέπω",
     "ovt1": "keek",
@@ -288,7 +279,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "33",
+    "id": "32",
     "infinitive": "kiezen",
     "translation": "διαλέγω (αυτό ή εκείνο)",
     "ovt1": "koos",
@@ -297,7 +288,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "34",
+    "id": "33",
     "infinitive": "volgen",
     "translation": "ακολουθώ",
     "ovt1": "volgde",
@@ -306,7 +297,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "35",
+    "id": "34",
     "infinitive": "winkelen",
     "translation": "ψωνίζω (κάνω shopping)",
     "ovt1": "winkelde",
@@ -315,7 +306,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "36",
+    "id": "35",
     "infinitive": "drinken",
     "translation": "πίνω",
     "ovt1": "dronk",
@@ -324,7 +315,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "37",
+    "id": "36",
     "infinitive": "spreken",
     "translation": "μιλάω (speak)",
     "ovt1": "sprak",
@@ -333,7 +324,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "38",
+    "id": "37",
     "infinitive": "bijten",
     "translation": "δαγκώνω",
     "ovt1": "beet",
@@ -342,7 +333,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "39",
+    "id": "38",
     "infinitive": "studeren",
     "translation": "σπουδάζω",
     "ovt1": "studeerde",
@@ -351,7 +342,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "40",
+    "id": "39",
     "infinitive": "luisteren",
     "translation": "ακούω",
     "ovt1": "luisterde",
@@ -360,7 +351,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "41",
+    "id": "40",
     "infinitive": "zitten",
     "translation": "κάθομαι",
     "ovt1": "zat",
@@ -369,7 +360,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "42",
+    "id": "41",
     "infinitive": "beginnen",
     "translation": "ξεκινάω",
     "ovt1": "begon",
@@ -378,7 +369,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "43",
+    "id": "42",
     "infinitive": "herhalen",
     "translation": "επαναλαμβάνω",
     "ovt1": "herhaalde",
@@ -387,7 +378,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "44",
+    "id": "43",
     "infinitive": "ontdekken",
     "translation": "ανακαλύπτω",
     "ovt1": "ontdekte",
@@ -396,7 +387,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "45",
+    "id": "44",
     "infinitive": "vertellen",
     "translation": "εξιστορώ",
     "ovt1": "vertelde",
@@ -405,7 +396,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "46",
+    "id": "45",
     "infinitive": "betalen",
     "translation": "πληρώνω",
     "ovt1": "betaalde",
@@ -414,7 +405,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "47",
+    "id": "46",
     "infinitive": "kennen",
     "translation": "ξέρω/γνωρίζω",
     "ovt1": "kende",
@@ -423,7 +414,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "48",
+    "id": "47",
     "infinitive": "erkennen",
     "translation": "παραδέχομαι",
     "ovt1": "erkende",
@@ -432,7 +423,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "49",
+    "id": "48",
     "infinitive": "gebeuren",
     "translation": "συμβαίνει",
     "ovt1": "gebeurde",
@@ -441,12 +432,21 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "50",
+    "id": "49",
     "infinitive": "verstaan",
-    "translation": "αντιλαμβάνομαι\nκαταλαβαίνω",
+    "translation": "αντιλαμβάνομαι",
     "ovt1": "verstond",
     "ovt2": "verstonden",
     "vtt": "hebben verstaan",
+    "weight": 1
+  },
+  {
+    "id": "50",
+    "infinitive": "nan",
+    "translation": "καταλαβαίνω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
     "weight": 1
   },
   {
@@ -533,7 +533,7 @@ const verbsData = [
   {
     "id": "60",
     "infinitive": "voorkomen",
-    "translation": "παρουσιάζομαι\nεμφανίζομαι",
+    "translation": "παρουσιάζομαι",
     "ovt1": "kwam voor",
     "ovt2": "kwamen voor",
     "vtt": "zijn voorgekomen",
@@ -541,6 +541,15 @@ const verbsData = [
   },
   {
     "id": "61",
+    "infinitive": "nan",
+    "translation": "εμφανίζομαι",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "62",
     "infinitive": "onderzoeken",
     "translation": "ερευνώ",
     "ovt1": "onderzocht",
@@ -549,7 +558,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "62",
+    "id": "63",
     "infinitive": "staan",
     "translation": "στέκομαι",
     "ovt1": "stond",
@@ -558,7 +567,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "63",
+    "id": "64",
     "infinitive": "opstaan",
     "translation": "ξυπνάω",
     "ovt1": "stond op",
@@ -567,7 +576,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "64",
+    "id": "65",
     "infinitive": "lopen",
     "translation": "περπατάω",
     "ovt1": "liep",
@@ -576,7 +585,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "65",
+    "id": "66",
     "infinitive": "missen",
     "translation": "χάνω/μου λείπει",
     "ovt1": "miste",
@@ -585,7 +594,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "66",
+    "id": "67",
     "infinitive": "aflopen",
     "translation": "ολοκληρώνω",
     "ovt1": "liep af",
@@ -594,7 +603,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "67",
+    "id": "68",
     "infinitive": "maken",
     "translation": "φτιάχνω",
     "ovt1": "maakte",
@@ -603,7 +612,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "68",
+    "id": "69",
     "infinitive": "verkopen",
     "translation": "πουλάω",
     "ovt1": "verkocht",
@@ -612,7 +621,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "69",
+    "id": "70",
     "infinitive": "weten",
     "translation": "ξέρω/γνωρίζω",
     "ovt1": "wist",
@@ -621,7 +630,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "70",
+    "id": "71",
     "infinitive": "zien",
     "translation": "βλέπω",
     "ovt1": "zag",
@@ -630,7 +639,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "71",
+    "id": "72",
     "infinitive": "vragen",
     "translation": "ερωτώ",
     "ovt1": "vroeg/vragde",
@@ -639,7 +648,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "72",
+    "id": "73",
     "infinitive": "vinden",
     "translation": "θεωρώ/βρίσκω",
     "ovt1": "vond",
@@ -648,7 +657,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "73",
+    "id": "74",
     "infinitive": "meelopen",
     "translation": "συμβαδίζω",
     "ovt1": "liep mee",
@@ -657,7 +666,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "74",
+    "id": "75",
     "infinitive": "aankomen",
     "translation": "φτάνω",
     "ovt1": "kwam aan",
@@ -666,7 +675,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "75",
+    "id": "76",
     "infinitive": "voorkomen",
     "translation": "αποτρέπω",
     "ovt1": "voorkwam",
@@ -675,7 +684,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "76",
+    "id": "77",
     "infinitive": "geloven",
     "translation": "πιστεύω",
     "ovt1": "geloofde",
@@ -684,7 +693,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "77",
+    "id": "78",
     "infinitive": "geven",
     "translation": "δίνω",
     "ovt1": "gaf",
@@ -693,7 +702,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "78",
+    "id": "79",
     "infinitive": "verschilen",
     "translation": "διαφέρω",
     "ovt1": "verschilde",
@@ -702,7 +711,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "79",
+    "id": "80",
     "infinitive": "horen",
     "translation": "ακούω",
     "ovt1": "hoorde",
@@ -711,7 +720,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "80",
+    "id": "81",
     "infinitive": "grijp",
     "translation": "τσακώνω",
     "ovt1": "greep",
@@ -720,7 +729,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "81",
+    "id": "82",
     "infinitive": "kosten",
     "translation": "κοστίζω",
     "ovt1": "kostte",
@@ -729,7 +738,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "82",
+    "id": "83",
     "infinitive": "pauzeren",
     "translation": "κάνω παύση",
     "ovt1": "pauzeerde",
@@ -738,7 +747,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "83",
+    "id": "84",
     "infinitive": "opzoeken",
     "translation": "αναζητώ",
     "ovt1": "zocht op",
@@ -747,7 +756,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "84",
+    "id": "85",
     "infinitive": "verzoeken",
     "translation": "αιτούμαι",
     "ovt1": "verzocht",
@@ -756,7 +765,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "85",
+    "id": "86",
     "infinitive": "bezoeken",
     "translation": "επισκέπτομαι",
     "ovt1": "bezocht",
@@ -765,7 +774,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "86",
+    "id": "87",
     "infinitive": "aanrijden",
     "translation": "τρακάρω",
     "ovt1": "",
@@ -774,7 +783,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "87",
+    "id": "88",
     "infinitive": "betekenen",
     "translation": "σημαίνω",
     "ovt1": "betekende",
@@ -783,7 +792,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "88",
+    "id": "89",
     "infinitive": "nazeggen",
     "translation": "επαναλαμβάνω δυνατά",
     "ovt1": "zei na",
@@ -792,34 +801,61 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "89",
+    "id": "90",
     "infinitive": "uitspreken",
-    "translation": "εκφράζω\nπροφέρω",
+    "translation": "εκφράζω",
     "ovt1": "sprak uit",
     "ovt2": "spraken uit",
     "vtt": "hebben uitgesproken",
     "weight": 1
   },
   {
-    "id": "90",
+    "id": "91",
+    "infinitive": "nan",
+    "translation": "προφέρω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "92",
     "infinitive": "inwikkelen",
-    "translation": "μπερδεύομαι\nπεριπλέκω",
+    "translation": "μπερδεύομαι",
     "ovt1": "wikkelde in",
     "ovt2": "wikkelden in",
     "vtt": "hebben ingewikkeld",
     "weight": 1
   },
   {
-    "id": "91",
+    "id": "93",
+    "infinitive": "nan",
+    "translation": "περιπλέκω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "94",
     "infinitive": "tekenen",
-    "translation": "ζωγραφίζω\nυπογράφω",
+    "translation": "ζωγραφίζω",
     "ovt1": "tekende",
     "ovt2": "tekenden",
     "vtt": "hebben getekend",
     "weight": 1
   },
   {
-    "id": "92",
+    "id": "95",
+    "infinitive": "nan",
+    "translation": "υπογράφω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "96",
     "infinitive": "oefenen",
     "translation": "ασκούμαι",
     "ovt1": "oefende",
@@ -828,7 +864,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "93",
+    "id": "97",
     "infinitive": "beoefenen",
     "translation": "εξασκούμαι",
     "ovt1": "beoefende",
@@ -837,7 +873,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "94",
+    "id": "98",
     "infinitive": "antwoorden",
     "translation": "απαντώ",
     "ovt1": "antwoordde",
@@ -846,7 +882,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "95",
+    "id": "99",
     "infinitive": "toetsen",
     "translation": "τεστάρω",
     "ovt1": "toetste",
@@ -855,7 +891,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "96",
+    "id": "100",
     "infinitive": "controleren",
     "translation": "ελέγχω",
     "ovt1": "controleerde",
@@ -864,7 +900,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "97",
+    "id": "101",
     "infinitive": "schrijven",
     "translation": "γράφω",
     "ovt1": "schreef (σχρειφ)",
@@ -873,7 +909,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "98",
+    "id": "102",
     "infinitive": "lezen",
     "translation": "διαβάζω",
     "ovt1": "las",
@@ -882,16 +918,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "99",
+    "id": "103",
     "infinitive": "verzekeren",
-    "translation": "ασφαλίζω\nδιαβεβαιώνω",
+    "translation": "ασφαλίζω",
     "ovt1": "verzekerde",
     "ovt2": "verzekerden",
     "vtt": "hebben verzekerd",
     "weight": 1
   },
   {
-    "id": "100",
+    "id": "104",
+    "infinitive": "nan",
+    "translation": "διαβεβαιώνω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "105",
     "infinitive": "opschrijven",
     "translation": "καταγράφω",
     "ovt1": "schreef op",
@@ -900,7 +945,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "101",
+    "id": "106",
     "infinitive": "denken",
     "translation": "νομίζω/σκέφτομαι/θεωρώ",
     "ovt1": "dacht",
@@ -909,7 +954,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "102",
+    "id": "107",
     "infinitive": "zijn er",
     "translation": "υπάρχω",
     "ovt1": "",
@@ -918,7 +963,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "103",
+    "id": "108",
     "infinitive": "zich verbazen",
     "translation": "εκπλήσσομαι",
     "ovt1": "verbaasde (me/je/zich)",
@@ -927,7 +972,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "104",
+    "id": "109",
     "infinitive": "zich herinneren",
     "translation": "θυμάμαι",
     "ovt1": "herinnerde (me/je/zich)",
@@ -936,7 +981,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "105",
+    "id": "110",
     "infinitive": "zich voelen",
     "translation": "αισθάνομαι",
     "ovt1": "voelde (me/je/zich)",
@@ -945,7 +990,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "106",
+    "id": "111",
     "infinitive": "zich wassen",
     "translation": "πλένομαι",
     "ovt1": "waste (me/je/zich)",
@@ -954,7 +999,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "107",
+    "id": "112",
     "infinitive": "uitstappen",
     "translation": "αποβιβάζομαι",
     "ovt1": "stapte uit",
@@ -963,7 +1008,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "108",
+    "id": "113",
     "infinitive": "instappen",
     "translation": "επιβιβάζομαι",
     "ovt1": "stapte in",
@@ -972,7 +1017,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "109",
+    "id": "114",
     "infinitive": "stappen",
     "translation": "βηματίζω",
     "ovt1": "stapte",
@@ -981,7 +1026,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "110",
+    "id": "115",
     "infinitive": "drukken",
     "translation": "πιέζω (μεταφορικά και κυριολεκτικά)",
     "ovt1": "drukte",
@@ -990,7 +1035,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "111",
+    "id": "116",
     "infinitive": "afhangen",
     "translation": "εξαρτώμαι",
     "ovt1": "hing af",
@@ -999,16 +1044,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "112",
+    "id": "117",
     "infinitive": "uitmaken",
-    "translation": "με πειράζει\nέχει σημασία",
+    "translation": "με πειράζει",
     "ovt1": "maakte uit",
     "ovt2": "maakten uit",
     "vtt": "zijn uitgemaakt",
     "weight": 1
   },
   {
-    "id": "113",
+    "id": "118",
+    "infinitive": "nan",
+    "translation": "έχει σημασία",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "119",
     "infinitive": "houden (χάουεν)",
     "translation": "αγαπώ/κρατάω",
     "ovt1": "hield",
@@ -1017,7 +1071,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "114",
+    "id": "120",
     "infinitive": "zich vervelen",
     "translation": "ενοχλούμαι",
     "ovt1": "vervelde (me/je/zich)",
@@ -1026,7 +1080,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "115",
+    "id": "121",
     "infinitive": "worden",
     "translation": "γίνομαι",
     "ovt1": "werd",
@@ -1035,7 +1089,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "116",
+    "id": "122",
     "infinitive": "delen",
     "translation": "μοιράζω",
     "ovt1": "deelde",
@@ -1044,7 +1098,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "117",
+    "id": "123",
     "infinitive": "wachten",
     "translation": "περιμένω",
     "ovt1": "wachtte",
@@ -1053,7 +1107,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "118",
+    "id": "124",
     "infinitive": "verwachten",
     "translation": "αναμένω",
     "ovt1": "verwachtte",
@@ -1062,7 +1116,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "119",
+    "id": "125",
     "infinitive": "afwachten",
     "translation": "προσμένω",
     "ovt1": "wachtte af",
@@ -1071,16 +1125,16 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "120",
+    "id": "126",
     "infinitive": "binnenkomen",
     "translation": "εισέρχομαι",
-    "ovt1": "binnenkwam",
-    "ovt2": "binnenkwamen",
+    "ovt1": "kwam binnen",
+    "ovt2": "kwamen binnen",
     "vtt": "zijn binnengekomen",
     "weight": 1
   },
   {
-    "id": "121",
+    "id": "127",
     "infinitive": "kosten",
     "translation": "κοστίζω",
     "ovt1": "kostte",
@@ -1089,7 +1143,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "122",
+    "id": "128",
     "infinitive": "dichgaan",
     "translation": "κλείνω",
     "ovt1": "ging dicht",
@@ -1098,7 +1152,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "123",
+    "id": "129",
     "infinitive": "dichtdoen",
     "translation": "κλείνω (πράγματα)",
     "ovt1": "deed dicht",
@@ -1107,7 +1161,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "124",
+    "id": "130",
     "infinitive": "verdelen",
     "translation": "διαμοιράζω",
     "ovt1": "verdelde",
@@ -1116,7 +1170,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "125",
+    "id": "131",
     "infinitive": "zoenen",
     "translation": "δίνω φιλί (infromal)",
     "ovt1": "zoende",
@@ -1125,7 +1179,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "126",
+    "id": "132",
     "infinitive": "kussen",
     "translation": "φιλάω (formale)",
     "ovt1": "kuste",
@@ -1134,7 +1188,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "127",
+    "id": "133",
     "infinitive": "doceren",
     "translation": "διδάσκω",
     "ovt1": "doceerde",
@@ -1143,7 +1197,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "128",
+    "id": "134",
     "infinitive": "lenen",
     "translation": "δανείζω",
     "ovt1": "leende",
@@ -1152,7 +1206,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "129",
+    "id": "135",
     "infinitive": "inzien",
     "translation": "μαντεύω, προβλέπω, έχω προαίσθημα",
     "ovt1": "zag in",
@@ -1161,7 +1215,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "130",
+    "id": "136",
     "infinitive": "kloppen",
     "translation": "είναι σωστό",
     "ovt1": "klopte",
@@ -1170,7 +1224,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "131",
+    "id": "137",
     "infinitive": "verdienen",
     "translation": "κερδίζω ( μόνο για χρήματα)",
     "ovt1": "verdiende",
@@ -1179,7 +1233,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "132",
+    "id": "138",
     "infinitive": "aangaan",
     "translation": "αφορά",
     "ovt1": "",
@@ -1188,7 +1242,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "133",
+    "id": "139",
     "infinitive": "doorgaan",
     "translation": "συνεχίζω",
     "ovt1": "ging door",
@@ -1197,25 +1251,34 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "134",
+    "id": "140",
     "infinitive": "schijnen",
-    "translation": "φαίνομαι\nλάμπει ο ήλιος",
+    "translation": "φαίνομαι",
     "ovt1": "scheen",
     "ovt2": "schenen",
     "vtt": "hebben geschenen",
     "weight": 1
   },
   {
-    "id": "135",
-    "infinitive": "bouwen",
-    "translation": "χτίζω",
-    "ovt1": "bouwde",
-    "ovt2": "bouwden",
-    "vtt": "hebben gebouwd",
+    "id": "141",
+    "infinitive": "nan",
+    "translation": "λάμπει ο ήλιος",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
     "weight": 1
   },
   {
-    "id": "136",
+    "id": "142",
+    "infinitive": "bouwen",
+    "translation": "χτίζω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "143",
     "infinitive": "waaien",
     "translation": "φυσάει (για αέρα)",
     "ovt1": "waaide",
@@ -1224,7 +1287,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "137",
+    "id": "144",
     "infinitive": "stijgen",
     "translation": "αυξάνω",
     "ovt1": "steeg",
@@ -1233,7 +1296,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "138",
+    "id": "145",
     "infinitive": "veranderen",
     "translation": "αλλάζω",
     "ovt1": "veranderde",
@@ -1242,7 +1305,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "139",
+    "id": "146",
     "infinitive": "afwisselen",
     "translation": "εναλάσσω",
     "ovt1": "wisselde af",
@@ -1251,7 +1314,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "140",
+    "id": "147",
     "infinitive": "wisselen",
     "translation": "αλλάζω",
     "ovt1": "wisselde",
@@ -1260,7 +1323,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "141",
+    "id": "148",
     "infinitive": "verwisselen",
     "translation": "αντικαθιστώ/μεταλλάσω",
     "ovt1": "",
@@ -1269,43 +1332,70 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "142",
+    "id": "149",
     "infinitive": "opklaren",
-    "translation": "ξεκαθαρίζω\nαποσαφινίζω",
+    "translation": "ξεκαθαρίζω",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "143",
+    "id": "150",
+    "infinitive": "nan",
+    "translation": "αποσαφινίζω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "151",
     "infinitive": "bewolken",
     "translation": "συννεφιάζω (μόνο για τον καιρό)",
-    "ovt1": "",
-    "ovt2": "",
-    "vtt": "",
+    "ovt1": "bewolkte",
+    "ovt2": "bewolkten",
+    "vtt": "hebben bewolkt",
     "weight": 1
   },
   {
-    "id": "144",
+    "id": "152",
     "infinitive": "dalen",
-    "translation": "μειώνω\nπέφτω (για καταστάσεις)",
+    "translation": "μειώνω",
     "ovt1": "dalde",
     "ovt2": "dalden",
     "vtt": "zijn gedaald",
     "weight": 1
   },
   {
-    "id": "145",
+    "id": "153",
+    "infinitive": "nan",
+    "translation": "πέφτω (για καταστάσεις)",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "154",
     "infinitive": "toenemen",
-    "translation": "αυξάνω\nανεβάζω (για καταστάσεις)",
+    "translation": "αυξάνω",
     "ovt1": "nam toe",
     "ovt2": "namen toe",
     "vtt": "zijn toegenomen",
     "weight": 1
   },
   {
-    "id": "146",
+    "id": "155",
+    "infinitive": "nan",
+    "translation": "ανεβάζω (για καταστάσεις)",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "156",
     "infinitive": "liggen",
     "translation": "ξαπλώνω",
     "ovt1": "lag",
@@ -1314,7 +1404,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "147",
+    "id": "157",
     "infinitive": "bekijken",
     "translation": "παρατηρώ",
     "ovt1": "bekeek",
@@ -1323,7 +1413,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "148",
+    "id": "158",
     "infinitive": "waarschuwen",
     "translation": "προειδοποιώ",
     "ovt1": "waarschuwde",
@@ -1332,7 +1422,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "149",
+    "id": "159",
     "infinitive": "schuwen",
     "translation": "ταρακουνάω",
     "ovt1": "schuwde",
@@ -1341,7 +1431,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "150",
+    "id": "160",
     "infinitive": "waarnemen",
     "translation": "κάνω επιστημονικές μετρήσεις",
     "ovt1": "nam waar",
@@ -1350,7 +1440,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "151",
+    "id": "161",
     "infinitive": "plaatsnemen",
     "translation": "παίρνω σειρά",
     "ovt1": "nam plaats",
@@ -1359,25 +1449,34 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "152",
+    "id": "162",
     "infinitive": "misten",
     "translation": "έχει ομίχλη",
-    "ovt1": "",
-    "ovt2": "",
-    "vtt": "",
+    "ovt1": "miste",
+    "ovt2": "misten",
+    "vtt": "hebben gemist",
     "weight": 1
   },
   {
-    "id": "153",
+    "id": "163",
     "infinitive": "blazen",
-    "translation": "φυσάω (για άνθρωπο)\nφουσκώνω (μπαλόνι)",
+    "translation": "φυσάω (για άνθρωπο)",
     "ovt1": "blies",
     "ovt2": "bliezen",
     "vtt": "hebben geblazen",
     "weight": 1
   },
   {
-    "id": "154",
+    "id": "164",
+    "infinitive": "nan",
+    "translation": "φουσκώνω (μπαλόνι)",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "165",
     "infinitive": "sameneten",
     "translation": "τρώω μαζί",
     "ovt1": "at samen",
@@ -1386,7 +1485,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "155",
+    "id": "166",
     "infinitive": "huren",
     "translation": "νοικιάζω",
     "ovt1": "huurde",
@@ -1395,7 +1494,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "156",
+    "id": "167",
     "infinitive": "oplossen",
     "translation": "επιλύω",
     "ovt1": "loste op",
@@ -1404,7 +1503,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "157",
+    "id": "168",
     "infinitive": "verhuren",
     "translation": "εκμισθώνω",
     "ovt1": "verhuurde",
@@ -1413,7 +1512,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "158",
+    "id": "169",
     "infinitive": "genieten",
     "translation": "απολαμβάνω",
     "ovt1": "genoot",
@@ -1422,25 +1521,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "159",
+    "id": "170",
     "infinitive": "douchen",
     "translation": "κάνω μπάνιο",
-    "ovt1": "",
-    "ovt2": "",
-    "vtt": "",
+    "ovt1": "douchte (me/je/zich)",
+    "ovt2": "douchten (ons/je/zich)",
+    "vtt": "hebben (zich) gedoucht",
     "weight": 1
   },
   {
-    "id": "160",
+    "id": "171",
     "infinitive": "gebruiken",
     "translation": "χρησιμοποιώ",
-    "ovt1": "gebruikte",
+    "ovt1": "nan",
     "ovt2": "gebruikten",
     "vtt": "hebben gebruikt",
     "weight": 1
   },
   {
-    "id": "161",
+    "id": "172",
     "infinitive": "noemen",
     "translation": "ονομάζω",
     "ovt1": "noemde",
@@ -1449,7 +1548,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "162",
+    "id": "173",
     "infinitive": "samenwonen",
     "translation": "συγκατοικώ",
     "ovt1": "",
@@ -1458,7 +1557,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "163",
+    "id": "174",
     "infinitive": "samenwerken",
     "translation": "συνεργάζομαι",
     "ovt1": "",
@@ -1467,7 +1566,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "164",
+    "id": "175",
     "infinitive": "zoeken",
     "translation": "ψάχνω",
     "ovt1": "zocht",
@@ -1476,7 +1575,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "165",
+    "id": "176",
     "infinitive": "uitleggen",
     "translation": "εξηγώ",
     "ovt1": "legde uit",
@@ -1485,7 +1584,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "166",
+    "id": "177",
     "infinitive": "leggen",
     "translation": "τοποθετώ",
     "ovt1": "legde",
@@ -1494,7 +1593,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "167",
+    "id": "178",
     "infinitive": "voorstellen",
     "translation": "προτείνω",
     "ovt1": "stelde voor",
@@ -1503,7 +1602,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "168",
+    "id": "179",
     "infinitive": "zich voorsellen",
     "translation": "συστήνομαι",
     "ovt1": "stelde (me/je/zich) voor",
@@ -1512,7 +1611,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "169",
+    "id": "180",
     "infinitive": "wijzen",
     "translation": "δείχνω",
     "ovt1": "wees",
@@ -1521,7 +1620,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "170",
+    "id": "181",
     "infinitive": "bewijzen",
     "translation": "αποδεικνύω",
     "ovt1": "bewees",
@@ -1530,7 +1629,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "171",
+    "id": "182",
     "infinitive": "rijden (ράιεν)",
     "translation": "οδηγώ",
     "ovt1": "reed",
@@ -1539,7 +1638,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "172",
+    "id": "183",
     "infinitive": "meenemen",
     "translation": "παίρνω μαζί μου",
     "ovt1": "nam mee",
@@ -1548,7 +1647,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "173",
+    "id": "184",
     "infinitive": "ingaan",
     "translation": "εισέρχομαι",
     "ovt1": "ging in",
@@ -1557,7 +1656,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "174",
+    "id": "185",
     "infinitive": "uitgaan",
     "translation": "εξέρχομαι",
     "ovt1": "ging uit",
@@ -1566,7 +1665,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "175",
+    "id": "186",
     "infinitive": "vechten",
     "translation": "παλεύω",
     "ovt1": "vocht",
@@ -1575,7 +1674,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "176",
+    "id": "187",
     "infinitive": "leiden",
     "translation": "ηγούμαι",
     "ovt1": "leidde",
@@ -1584,16 +1683,34 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "177",
+    "id": "188",
     "infinitive": "vangen",
-    "translation": "πιάνω\nτσακώνω\nαιχμαλωτίζω",
+    "translation": "πιάνω",
     "ovt1": "ving",
     "ovt2": "vingen",
     "vtt": "hebben gevangen",
     "weight": 1
   },
   {
-    "id": "178",
+    "id": "189",
+    "infinitive": "nan",
+    "translation": "τσακώνω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "190",
+    "infinitive": "nan",
+    "translation": "αιχμαλωτίζω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "191",
     "infinitive": "zieken",
     "translation": "είμαι άρρωστος",
     "ovt1": "ziekte",
@@ -1602,25 +1719,43 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "179",
+    "id": "192",
     "infinitive": "bekendmaken",
-    "translation": "δημοσιοποιώ\nδηλώνω",
+    "translation": "δημοσιοποιώ",
     "ovt1": "maakte bekend",
     "ovt2": "maakten bekend",
     "vtt": "hebben bekendgemaakt",
     "weight": 1
   },
   {
-    "id": "180",
+    "id": "193",
+    "infinitive": "nan",
+    "translation": "δηλώνω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "194",
     "infinitive": "bedenken",
-    "translation": "αναθεωρώ\nεπινοώ",
+    "translation": "αναθεωρώ",
     "ovt1": "bedacht",
     "ovt2": "bedachten",
     "vtt": "hebben bedacht",
     "weight": 1
   },
   {
-    "id": "181",
+    "id": "195",
+    "infinitive": "nan",
+    "translation": "επινοώ",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "196",
     "infinitive": "plassen",
     "translation": "ουρώ",
     "ovt1": "",
@@ -1629,16 +1764,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "182",
+    "id": "197",
     "infinitive": "bewegen",
-    "translation": "κινούμαι\nγυμνάζομαι",
+    "translation": "κινούμαι",
     "ovt1": "bewoog",
     "ovt2": "bewogen",
     "vtt": "zijn bewogen",
     "weight": 1
   },
   {
-    "id": "183",
+    "id": "198",
+    "infinitive": "nan",
+    "translation": "γυμνάζομαι",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "199",
     "infinitive": "verkiezen",
     "translation": "εκλέγω",
     "ovt1": "verkoos",
@@ -1647,7 +1791,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "184",
+    "id": "200",
     "infinitive": "uitkiezen",
     "translation": "επιλέγω (μεταξύ κάποιων)",
     "ovt1": "koos uit",
@@ -1656,7 +1800,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "185",
+    "id": "201",
     "infinitive": "stemmen",
     "translation": "ψηφίζω",
     "ovt1": "stemde",
@@ -1665,7 +1809,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "186",
+    "id": "202",
     "infinitive": "meedoen",
     "translation": "συμμετέχω",
     "ovt1": "deed mee",
@@ -1674,7 +1818,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "187",
+    "id": "203",
     "infinitive": "verplichten",
     "translation": "",
     "ovt1": "",
@@ -1683,7 +1827,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "188",
+    "id": "204",
     "infinitive": "vergeten",
     "translation": "ξεχνάω",
     "ovt1": "vergat",
@@ -1692,7 +1836,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "189",
+    "id": "205",
     "infinitive": "pakken",
     "translation": "πιάνω",
     "ovt1": "",
@@ -1701,52 +1845,106 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "190",
+    "id": "206",
     "infinitive": "oversteken",
-    "translation": "διασχίζω\nπερνάω απέναντι",
+    "translation": "διασχίζω",
     "ovt1": "stak over",
     "ovt2": "staken over",
     "vtt": "zijn overgestoken",
     "weight": 1
   },
   {
-    "id": "191",
-    "infinitive": "steken",
-    "translation": "καρφώνω\nμαχαιρώνω",
-    "ovt1": "stak",
-    "ovt2": "staken",
-    "vtt": "hebben gestoken",
-    "weight": 1
-  },
-  {
-    "id": "192",
-    "infinitive": "oprichten",
-    "translation": "αποσκοπώ\nσυστήνω (όχι άνθρωπο)",
-    "ovt1": "richtte op",
-    "ovt2": "richtten op",
-    "vtt": "hebben opgericht",
-    "weight": 1
-  },
-  {
-    "id": "193",
-    "infinitive": "richten",
-    "translation": "σκοπεύω\nστοχεύω",
+    "id": "207",
+    "infinitive": "nan",
+    "translation": "περνάω απέναντι",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "194",
+    "id": "208",
+    "infinitive": "steken",
+    "translation": "καρφώνω",
+    "ovt1": "stak",
+    "ovt2": "staken",
+    "vtt": "hebben gestoken",
+    "weight": 1
+  },
+  {
+    "id": "209",
+    "infinitive": "nan",
+    "translation": "μαχαιρώνω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "210",
+    "infinitive": "oprichten",
+    "translation": "αποσκοπώ",
+    "ovt1": "richtte op",
+    "ovt2": "richtten op",
+    "vtt": "hebben opgericht",
+    "weight": 1
+  },
+  {
+    "id": "211",
+    "infinitive": "nan",
+    "translation": "συστήνω (όχι άνθρωπο)",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "212",
+    "infinitive": "richten",
+    "translation": "σκοπεύω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "213",
+    "infinitive": "nan",
+    "translation": "στοχεύω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "214",
     "infinitive": "omgaan",
-    "translation": "συναναστρέφομαι\nπηγαίνω γύρω γύρω\nπαρακάμπτω",
+    "translation": "συναναστρέφομαι",
     "ovt1": "ging om",
     "ovt2": "gingen om",
     "vtt": "zijn omgegaan",
     "weight": 1
   },
   {
-    "id": "195",
+    "id": "215",
+    "infinitive": "nan",
+    "translation": "πηγαίνω γύρω γύρω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "216",
+    "infinitive": "nan",
+    "translation": "παρακάμπτω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "217",
     "infinitive": "uitwijken",
     "translation": "λοξοδρομώ",
     "ovt1": "",
@@ -1755,7 +1953,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "196",
+    "id": "218",
     "infinitive": "omlopen",
     "translation": "παρακάμπτω",
     "ovt1": "",
@@ -1764,7 +1962,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "197",
+    "id": "219",
     "infinitive": "wijken",
     "translation": "",
     "ovt1": "",
@@ -1773,16 +1971,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "198",
+    "id": "220",
     "infinitive": "raden",
-    "translation": "μαντεύω\nσυμβουλεύω",
+    "translation": "μαντεύω",
     "ovt1": "raadde",
     "ovt2": "raadden",
     "vtt": "hebben geraden",
     "weight": 1
   },
   {
-    "id": "199",
+    "id": "221",
+    "infinitive": "nan",
+    "translation": "συμβουλεύω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "222",
     "infinitive": "beslissen",
     "translation": "αποφασίζω",
     "ovt1": "besliste",
@@ -1791,25 +1998,43 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "200",
+    "id": "223",
     "infinitive": "waarderen",
-    "translation": "εκτιμώ\nαξίζω",
+    "translation": "εκτιμώ",
     "ovt1": "waardeerde",
     "ovt2": "waardeerden",
     "vtt": "hebben gewaardeerd",
     "weight": 1
   },
   {
-    "id": "201",
+    "id": "224",
+    "infinitive": "nan",
+    "translation": "αξίζω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "225",
     "infinitive": "feesten",
-    "translation": "γιορτάζω\nκάνω πάρτυ",
+    "translation": "γιορτάζω",
     "ovt1": "feestte",
     "ovt2": "feestten",
     "vtt": "hebben gefeest",
     "weight": 1
   },
   {
-    "id": "202",
+    "id": "226",
+    "infinitive": "nan",
+    "translation": "κάνω πάρτυ",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "227",
     "infinitive": "aanvallen",
     "translation": "επιτίθεμαι",
     "ovt1": "viel aan",
@@ -1818,7 +2043,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "203",
+    "id": "228",
     "infinitive": "wandelen",
     "translation": "κάνω περίπατο",
     "ovt1": "wandelde",
@@ -1827,7 +2052,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "204",
+    "id": "229",
     "infinitive": "beschermen",
     "translation": "προστατεύω",
     "ovt1": "beschermde",
@@ -1836,16 +2061,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "205",
+    "id": "230",
     "infinitive": "proberen",
-    "translation": "προσπαθώ\nδοκιμάζω",
+    "translation": "προσπαθώ",
     "ovt1": "probeerde",
     "ovt2": "probeerdeb",
     "vtt": "hebben geprobeerd",
     "weight": 1
   },
   {
-    "id": "206",
+    "id": "231",
+    "infinitive": "nan",
+    "translation": "δοκιμάζω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "232",
     "infinitive": "nadenken",
     "translation": "συλλογίζομαι",
     "ovt1": "dacht na",
@@ -1854,7 +2088,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "207",
+    "id": "233",
     "infinitive": "adopteren",
     "translation": "υιοθετώ",
     "ovt1": "adopterde",
@@ -1863,7 +2097,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "208",
+    "id": "234",
     "infinitive": "overlijden",
     "translation": "απεβιώνω",
     "ovt1": "overleed",
@@ -1872,7 +2106,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "209",
+    "id": "235",
     "infinitive": "doodgaan",
     "translation": "πεθαίνω",
     "ovt1": "ging dood",
@@ -1881,7 +2115,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "210",
+    "id": "236",
     "infinitive": "kapotgaan",
     "translation": "μας χαιρέτησε (μεταφορικά)",
     "ovt1": "ging kapot",
@@ -1890,7 +2124,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "211",
+    "id": "237",
     "infinitive": "zich bevinden",
     "translation": "βρίσκομαι",
     "ovt1": "bevond (me/je/zich)",
@@ -1899,7 +2133,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "212",
+    "id": "238",
     "infinitive": "zich scheren",
     "translation": "ξυρίζομαι",
     "ovt1": "schoor (me/je/zich)",
@@ -1908,43 +2142,97 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "213",
+    "id": "239",
     "infinitive": "bepalen",
-    "translation": "ορίζω\nκαθορίζω",
+    "translation": "ορίζω",
     "ovt1": "bepaalde",
     "ovt2": "bepaalden",
     "vtt": "hebben bepaald",
     "weight": 1
   },
   {
-    "id": "214",
+    "id": "240",
+    "infinitive": "nan",
+    "translation": "καθορίζω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "241",
     "infinitive": "uitbreiden",
-    "translation": "διεύρυνω\nεπιμηκύνω",
+    "translation": "διεύρυνω",
     "ovt1": "breidde uit",
     "ovt2": "breidden uit",
     "vtt": "hebben uitgebreid",
     "weight": 1
   },
   {
-    "id": "215",
+    "id": "242",
+    "infinitive": "nan",
+    "translation": "επιμηκύνω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "243",
     "infinitive": "betrekken",
-    "translation": "εμπλέκω\nσυνδέω\nαναμιγνύω",
+    "translation": "εμπλέκω",
     "ovt1": "bretrok",
     "ovt2": "betrokken",
     "vtt": "zijn betrokken",
     "weight": 1
   },
   {
-    "id": "216",
+    "id": "244",
+    "infinitive": "nan",
+    "translation": "συνδέω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "245",
+    "infinitive": "nan",
+    "translation": "αναμιγνύω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "246",
     "infinitive": "trekken",
-    "translation": "τραβάω\nέλκω (κυρ. και μεταφ.)\nμεταναστεύω",
+    "translation": "τραβάω",
     "ovt1": "trok",
     "ovt2": "trokken",
     "vtt": "zijn getrokken",
     "weight": 1
   },
   {
-    "id": "217",
+    "id": "247",
+    "infinitive": "nan",
+    "translation": "έλκω (κυρ. και μεταφ.)",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "248",
+    "infinitive": "nan",
+    "translation": "μεταναστεύω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "249",
     "infinitive": "aantrekken",
     "translation": "προσεκλύω",
     "ovt1": "trok aan",
@@ -1953,7 +2241,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "218",
+    "id": "250",
     "infinitive": "klinken",
     "translation": "ακούγομαι",
     "ovt1": "",
@@ -1962,7 +2250,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "219",
+    "id": "251",
     "infinitive": "zich interessiren",
     "translation": "ενδιαφέρομαι",
     "ovt1": "",
@@ -1971,7 +2259,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "220",
+    "id": "252",
     "infinitive": "lachen",
     "translation": "γελάω",
     "ovt1": "lachte",
@@ -1980,7 +2268,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "221",
+    "id": "253",
     "infinitive": "glimlachen",
     "translation": "χαμογελάω",
     "ovt1": "glimlachte",
@@ -1989,16 +2277,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "222",
+    "id": "254",
     "infinitive": "glimmen",
-    "translation": "λαμπυρίζω\nέχω λάμψη υγείας",
+    "translation": "λαμπυρίζω",
     "ovt1": "glom",
     "ovt2": "glommen",
     "vtt": "zijn geglommen",
     "weight": 1
   },
   {
-    "id": "223",
+    "id": "255",
+    "infinitive": "nan",
+    "translation": "έχω λάμψη υγείας",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "256",
     "infinitive": "uitslappen",
     "translation": "παρακοιμάμαι",
     "ovt1": "",
@@ -2007,7 +2304,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "224",
+    "id": "257",
     "infinitive": "opruimen",
     "translation": "συμαζεύω",
     "ovt1": "",
@@ -2016,7 +2313,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "225",
+    "id": "258",
     "infinitive": "schoonmaken",
     "translation": "καθαρίζω",
     "ovt1": "maakte schoon",
@@ -2025,7 +2322,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "226",
+    "id": "259",
     "infinitive": "sturen",
     "translation": "στέλνω",
     "ovt1": "stuurde",
@@ -2034,7 +2331,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "227",
+    "id": "260",
     "infinitive": "opsturen",
     "translation": "αποστέλνω",
     "ovt1": "stuurde op",
@@ -2043,7 +2340,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "228",
+    "id": "261",
     "infinitive": "bellen",
     "translation": "καλώ",
     "ovt1": "belde",
@@ -2052,7 +2349,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "229",
+    "id": "262",
     "infinitive": "betreffen",
     "translation": "σχετίζεται",
     "ovt1": "",
@@ -2061,7 +2358,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "230",
+    "id": "263",
     "infinitive": "treffen",
     "translation": "πετυχαίνω",
     "ovt1": "",
@@ -2070,7 +2367,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "231",
+    "id": "264",
     "infinitive": "stellen",
     "translation": "θέττω",
     "ovt1": "stelde",
@@ -2079,7 +2376,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "232",
+    "id": "265",
     "infinitive": "roepen",
     "translation": "φωνάζω κάποιον",
     "ovt1": "roepte",
@@ -2088,7 +2385,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "233",
+    "id": "266",
     "infinitive": "afnemen",
     "translation": "κάνω συνεδρία",
     "ovt1": "nam af",
@@ -2097,16 +2394,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "234",
+    "id": "267",
     "infinitive": "opnemen",
-    "translation": "ηχογραφώ\nβιντεοσκοπώ",
+    "translation": "ηχογραφώ",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "235",
+    "id": "268",
+    "infinitive": "nan",
+    "translation": "βιντεοσκοπώ",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "269",
     "infinitive": "bestaan",
     "translation": "υπάρχω",
     "ovt1": "bestond",
@@ -2115,7 +2421,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "236",
+    "id": "270",
     "infinitive": "bestaan uit",
     "translation": "αποτελούμαι από",
     "ovt1": "",
@@ -2124,16 +2430,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "237",
+    "id": "271",
     "infinitive": "vergroten",
-    "translation": "μεγαλώνω\nμεγενθύνω",
+    "translation": "μεγαλώνω",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "238",
+    "id": "272",
+    "infinitive": "nan",
+    "translation": "μεγενθύνω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "273",
     "infinitive": "verkleinen",
     "translation": "μικραίνω",
     "ovt1": "",
@@ -2142,7 +2457,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "239",
+    "id": "274",
     "infinitive": "bedanken",
     "translation": "ευχαριστώ",
     "ovt1": "",
@@ -2151,7 +2466,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "240",
+    "id": "275",
     "infinitive": "reageren",
     "translation": "αντιδρώ",
     "ovt1": "",
@@ -2160,7 +2475,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "241",
+    "id": "276",
     "infinitive": "beantwoorden",
     "translation": "αποκρίνομαι",
     "ovt1": "",
@@ -2169,7 +2484,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "242",
+    "id": "277",
     "infinitive": "afspelen",
     "translation": "ξεκινάω την αναπαραγωγή (βίντεο, ηχογράφησης κλπ.)",
     "ovt1": "",
@@ -2178,7 +2493,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "243",
+    "id": "278",
     "infinitive": "schuiven",
     "translation": "σέρνω",
     "ovt1": "schoof",
@@ -2187,7 +2502,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "244",
+    "id": "279",
     "infinitive": "inspreken",
     "translation": "καταγράφω ήχο",
     "ovt1": "sprak in",
@@ -2196,7 +2511,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "245",
+    "id": "280",
     "infinitive": "kiezen",
     "translation": "επιλέγω",
     "ovt1": "koos",
@@ -2205,16 +2520,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "246",
+    "id": "281",
     "infinitive": "inschakelen",
-    "translation": "ενεργοποιώ\nπροσλαμβάνω",
+    "translation": "ενεργοποιώ",
     "ovt1": "schakelde in",
     "ovt2": "schakelden in",
     "vtt": "zijn ingeschakeld",
     "weight": 1
   },
   {
-    "id": "247",
+    "id": "282",
+    "infinitive": "nan",
+    "translation": "προσλαμβάνω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "283",
     "infinitive": "motiveren",
     "translation": "κινητοποιούμαι",
     "ovt1": "motiveerde",
@@ -2223,7 +2547,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "248",
+    "id": "284",
     "infinitive": "aansluiten",
     "translation": "συνδέω",
     "ovt1": "sloot aan",
@@ -2232,7 +2556,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "249",
+    "id": "285",
     "infinitive": "tuineren",
     "translation": "κάνω δουλειές στον κήπο",
     "ovt1": "",
@@ -2241,7 +2565,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "250",
+    "id": "286",
     "infinitive": "opbelen",
     "translation": "τηλεφωνώ",
     "ovt1": "",
@@ -2250,7 +2574,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "251",
+    "id": "287",
     "infinitive": "plaatsvinden",
     "translation": "λαμβάνω χώρα",
     "ovt1": "",
@@ -2259,7 +2583,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "252",
+    "id": "288",
     "infinitive": "sterven",
     "translation": "πεθαίνω",
     "ovt1": "stierf",
@@ -2268,7 +2592,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "253",
+    "id": "289",
     "infinitive": "doodgaan",
     "translation": "πεθαίνω",
     "ovt1": "",
@@ -2277,7 +2601,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "254",
+    "id": "290",
     "infinitive": "doodschieten",
     "translation": "σκοτώνω κάποιον με όπλο",
     "ovt1": "schoot dood",
@@ -2286,7 +2610,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "255",
+    "id": "291",
     "infinitive": "doodmaken",
     "translation": "σκοτώνω",
     "ovt1": "",
@@ -2295,7 +2619,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "256",
+    "id": "292",
     "infinitive": "kapotmaken",
     "translation": "καθαρίζω (σκοτώνω)",
     "ovt1": "",
@@ -2304,7 +2628,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "257",
+    "id": "293",
     "infinitive": "schieten",
     "translation": "πυροβολώ",
     "ovt1": "",
@@ -2313,7 +2637,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "258",
+    "id": "294",
     "infinitive": "vermoorden",
     "translation": "δολοφονώ",
     "ovt1": "",
@@ -2322,7 +2646,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "259",
+    "id": "295",
     "infinitive": "menen",
     "translation": "εννοώ",
     "ovt1": "meende",
@@ -2331,7 +2655,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "260",
+    "id": "296",
     "infinitive": "bedoelen",
     "translation": "εννοώ",
     "ovt1": "bedoelde",
@@ -2340,7 +2664,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "261",
+    "id": "297",
     "infinitive": "meespelen",
     "translation": "παίζω μαζί",
     "ovt1": "speelde mee",
@@ -2349,7 +2673,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "262",
+    "id": "298",
     "infinitive": "klaarzetten",
     "translation": "ετοιμάζω",
     "ovt1": "",
@@ -2358,7 +2682,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "263",
+    "id": "299",
     "infinitive": "zetten",
     "translation": "τοποθετώ",
     "ovt1": "zette",
@@ -2367,7 +2691,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "264",
+    "id": "300",
     "infinitive": "ontmoeten",
     "translation": "συναντώ",
     "ovt1": "ontmoette",
@@ -2376,16 +2700,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "265",
+    "id": "301",
     "infinitive": "horen bij",
-    "translation": "ταιριάζω\nανήκω",
+    "translation": "ταιριάζω",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "266",
+    "id": "302",
+    "infinitive": "nan",
+    "translation": "ανήκω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "303",
     "infinitive": "doorlopen",
     "translation": "",
     "ovt1": "",
@@ -2394,7 +2727,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "267",
+    "id": "304",
     "infinitive": "beluisteren",
     "translation": "",
     "ovt1": "",
@@ -2403,7 +2736,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "268",
+    "id": "305",
     "infinitive": "aankliken",
     "translation": "εισακούω",
     "ovt1": "",
@@ -2412,7 +2745,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "269",
+    "id": "306",
     "infinitive": "bewaren",
     "translation": "συντηρώ/ διατηρώ",
     "ovt1": "bewaarde",
@@ -2421,7 +2754,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "270",
+    "id": "307",
     "infinitive": "zich ervaren",
     "translation": "βιώνω",
     "ovt1": "",
@@ -2430,7 +2763,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "271",
+    "id": "308",
     "infinitive": "hopen",
     "translation": "ελπίζω",
     "ovt1": "",
@@ -2439,7 +2772,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "272",
+    "id": "309",
     "infinitive": "handelen",
     "translation": "χειρίζομαι",
     "ovt1": "",
@@ -2448,7 +2781,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "273",
+    "id": "310",
     "infinitive": "organiseren",
     "translation": "οργανώνω",
     "ovt1": "",
@@ -2457,7 +2790,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "274",
+    "id": "311",
     "infinitive": "lijken",
     "translation": "μου φαίνεται",
     "ovt1": "",
@@ -2466,16 +2799,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "275",
+    "id": "312",
     "infinitive": "plannen",
-    "translation": "σχεδιάζω\nπρογραμματίζω",
+    "translation": "σχεδιάζω",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "276",
+    "id": "313",
+    "infinitive": "nan",
+    "translation": "προγραμματίζω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "314",
     "infinitive": "mailen",
     "translation": "στέλνω e-mail",
     "ovt1": "",
@@ -2484,16 +2826,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "277",
+    "id": "315",
     "infinitive": "ontvingen (form.)",
-    "translation": "παραλαμβάνω\nλαμβάνω",
+    "translation": "παραλαμβάνω",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "278",
+    "id": "316",
+    "infinitive": "nan",
+    "translation": "λαμβάνω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "317",
     "infinitive": "terugsturen",
     "translation": "επιστρέφω κάτι",
     "ovt1": "",
@@ -2502,7 +2853,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "279",
+    "id": "318",
     "infinitive": "terugkomen",
     "translation": "επιστρέφω (για ανθρώπους)",
     "ovt1": "",
@@ -2511,7 +2862,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "280",
+    "id": "319",
     "infinitive": "teruggeven",
     "translation": "δίνω πίσω",
     "ovt1": "",
@@ -2520,7 +2871,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "281",
+    "id": "320",
     "infinitive": "voldoen",
     "translation": "εκπληρώνω",
     "ovt1": "voldeed",
@@ -2529,7 +2880,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "282",
+    "id": "321",
     "infinitive": "informeeren",
     "translation": "ενημερώνω",
     "ovt1": "",
@@ -2538,7 +2889,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "283",
+    "id": "322",
     "infinitive": "compenseren",
     "translation": "αποζημιώνω",
     "ovt1": "",
@@ -2547,7 +2898,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "284",
+    "id": "323",
     "infinitive": "verlaten",
     "translation": "παρατάω/αποχωρίζομαι",
     "ovt1": "",
@@ -2556,7 +2907,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "285",
+    "id": "324",
     "infinitive": "overtreden",
     "translation": "παραβιάζω (τους κανόνες)",
     "ovt1": "overtrad",
@@ -2565,7 +2916,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "286",
+    "id": "325",
     "infinitive": "inbreken",
     "translation": "παραβιάζω (ένα σπίτι πχ)",
     "ovt1": "",
@@ -2574,7 +2925,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "287",
+    "id": "326",
     "infinitive": "stijgen",
     "translation": "αυξάνεται (όχι για ανθρώπους)",
     "ovt1": "",
@@ -2583,7 +2934,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "288",
+    "id": "327",
     "infinitive": "varen",
     "translation": "πλοηγούμαι (στο νερό)",
     "ovt1": "",
@@ -2592,7 +2943,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "289",
+    "id": "328",
     "infinitive": "aanduwen",
     "translation": "μετατοπίζω μια άποψη προς μια κατεύθυνση",
     "ovt1": "",
@@ -2601,7 +2952,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "290",
+    "id": "329",
     "infinitive": "duwen",
     "translation": "σπρώχνω",
     "ovt1": "",
@@ -2610,7 +2961,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "291",
+    "id": "330",
     "infinitive": "veroorzaken",
     "translation": "προκαλώ",
     "ovt1": "veroorzaakte",
@@ -2619,7 +2970,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "292",
+    "id": "331",
     "infinitive": "lasten",
     "translation": "ενοχλώ",
     "ovt1": "",
@@ -2628,7 +2979,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "293",
+    "id": "332",
     "infinitive": "belasten",
     "translation": "επιβαρύνω",
     "ovt1": "",
@@ -2637,7 +2988,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "294",
+    "id": "333",
     "infinitive": "steunen",
     "translation": "στηρίζω",
     "ovt1": "",
@@ -2646,7 +2997,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "295",
+    "id": "334",
     "infinitive": "ondersteunen",
     "translation": "υποστηρίζω",
     "ovt1": "",
@@ -2655,7 +3006,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "296",
+    "id": "335",
     "infinitive": "beloven",
     "translation": "υπόσχομαι",
     "ovt1": "beloofde",
@@ -2664,7 +3015,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "297",
+    "id": "336",
     "infinitive": "beiden",
     "translation": "προσφέρω",
     "ovt1": "",
@@ -2673,7 +3024,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "298",
+    "id": "337",
     "infinitive": "aanbieden (form.)",
     "translation": "προσφέρω",
     "ovt1": "",
@@ -2682,7 +3033,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "299",
+    "id": "338",
     "infinitive": "achterlaten",
     "translation": "αφήνω πίσω μου (μεταφορικά και κυριολεκτικά)",
     "ovt1": "",
@@ -2691,7 +3042,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "300",
+    "id": "339",
     "infinitive": "zich bedenken",
     "translation": "αλλάζω γνώμη",
     "ovt1": "",
@@ -2700,7 +3051,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "301",
+    "id": "340",
     "infinitive": "doorbrengen",
     "translation": "περνάω χρόνο",
     "ovt1": "bracht door",
@@ -2709,25 +3060,52 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "302",
+    "id": "341",
     "infinitive": "omkijken",
-    "translation": "κοιτάζω πίσω (κυρ.)\nαναπολώ\nδίνω προσοχή",
+    "translation": "κοιτάζω πίσω (κυρ.)",
     "ovt1": "keek om",
     "ovt2": "keken om",
     "vtt": "hebben omgekeken",
     "weight": 1
   },
   {
-    "id": "303",
+    "id": "342",
+    "infinitive": "nan",
+    "translation": "αναπολώ",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "343",
+    "infinitive": "nan",
+    "translation": "δίνω προσοχή",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "344",
     "infinitive": "besteden",
-    "translation": "επενδύω\nαφιερώνω",
+    "translation": "επενδύω",
     "ovt1": "besteedde",
     "ovt2": "besteedden",
     "vtt": "hebben besteed",
     "weight": 1
   },
   {
-    "id": "304",
+    "id": "345",
+    "infinitive": "nan",
+    "translation": "αφιερώνω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "346",
     "infinitive": "vastbinden + aan",
     "translation": "δένω γερά",
     "ovt1": "bond vast",
@@ -2736,7 +3114,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "305",
+    "id": "347",
     "infinitive": "vasthouden",
     "translation": "κρατάω γερά",
     "ovt1": "",
@@ -2745,7 +3123,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "306",
+    "id": "348",
     "infinitive": "binden + aan",
     "translation": "δένω",
     "ovt1": "",
@@ -2754,16 +3132,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "307",
+    "id": "349",
     "infinitive": "ontvangen",
-    "translation": "λαμβάνω\nαιχμαλωτίζω",
+    "translation": "λαμβάνω",
     "ovt1": "ontving",
     "ovt2": "ontvingen",
     "vtt": "hebben ontvangen",
     "weight": 1
   },
   {
-    "id": "308",
+    "id": "350",
+    "infinitive": "nan",
+    "translation": "αιχμαλωτίζω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "351",
     "infinitive": "wennen + aan",
     "translation": "συνηθίζω",
     "ovt1": "wende",
@@ -2772,7 +3159,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "309",
+    "id": "352",
     "infinitive": "vliegen",
     "translation": "πετάω (για πουλιά πχ)",
     "ovt1": "vloog",
@@ -2781,7 +3168,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "310",
+    "id": "353",
     "infinitive": "behouden",
     "translation": "διατηρώ, διαφυλάσσω, συντηρώ",
     "ovt1": "",
@@ -2790,7 +3177,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "311",
+    "id": "354",
     "infinitive": "overnemen",
     "translation": "αναλαμβάνω",
     "ovt1": "nam over",
@@ -2799,16 +3186,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "312",
+    "id": "355",
     "infinitive": "afwachten",
-    "translation": "προσμένω\nαδημονώ",
+    "translation": "προσμένω",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "313",
+    "id": "356",
+    "infinitive": "nan",
+    "translation": "αδημονώ",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "357",
     "infinitive": "wachten",
     "translation": "περιμένω",
     "ovt1": "",
@@ -2817,7 +3213,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "314",
+    "id": "358",
     "infinitive": "verwachten",
     "translation": "αναμένω",
     "ovt1": "",
@@ -2826,7 +3222,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "315",
+    "id": "359",
     "infinitive": "smeren",
     "translation": "αλοίφω",
     "ovt1": "",
@@ -2835,7 +3231,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "316",
+    "id": "360",
     "infinitive": "voorstel",
     "translation": "προτείνω",
     "ovt1": "",
@@ -2844,7 +3240,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "317",
+    "id": "361",
     "infinitive": "beleven",
     "translation": "βιώνω",
     "ovt1": "beleefde",
@@ -2853,7 +3249,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "318",
+    "id": "362",
     "infinitive": "adviseren",
     "translation": "συμβουλεύω",
     "ovt1": "",
@@ -2862,7 +3258,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "319",
+    "id": "363",
     "infinitive": "wassen",
     "translation": "πλένω",
     "ovt1": "",
@@ -2871,7 +3267,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "320",
+    "id": "364",
     "infinitive": "bakken",
     "translation": "ψήνω",
     "ovt1": "",
@@ -2880,7 +3276,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "321",
+    "id": "365",
     "infinitive": "heten",
     "translation": "ονομάζομαι",
     "ovt1": "",
@@ -2889,7 +3285,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "322",
+    "id": "366",
     "infinitive": "scheiden",
     "translation": "χωρίζω",
     "ovt1": "scheidde",
@@ -2898,7 +3294,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "323",
+    "id": "367",
     "infinitive": "bederven",
     "translation": "χαλάω (για τρόφιμα)",
     "ovt1": "",
@@ -2907,7 +3303,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "324",
+    "id": "368",
     "infinitive": "bedriegen",
     "translation": "εξαπατώ",
     "ovt1": "",
@@ -2916,7 +3312,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "325",
+    "id": "369",
     "infinitive": "genieten",
     "translation": "απολαμβάνω",
     "ovt1": "",
@@ -2925,7 +3321,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "326",
+    "id": "370",
     "infinitive": "liegen",
     "translation": "λέω ψέματα",
     "ovt1": "",
@@ -2934,7 +3330,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "327",
+    "id": "371",
     "infinitive": "vliegen",
     "translation": "πετάω (για πουλιά πχ)",
     "ovt1": "",
@@ -2943,7 +3339,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "328",
+    "id": "372",
     "infinitive": "winnen",
     "translation": "κερδίζω",
     "ovt1": "",
@@ -2952,7 +3348,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "329",
+    "id": "373",
     "infinitive": "zingen",
     "translation": "",
     "ovt1": "",
@@ -2961,7 +3357,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "330",
+    "id": "374",
     "infinitive": "rijden",
     "translation": "οδηγώ",
     "ovt1": "",
@@ -2970,7 +3366,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "331",
+    "id": "375",
     "infinitive": "blijken",
     "translation": "",
     "ovt1": "",
@@ -2979,7 +3375,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "332",
+    "id": "376",
     "infinitive": "strijken",
     "translation": "σιδερώνω",
     "ovt1": "",
@@ -2988,7 +3384,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "333",
+    "id": "377",
     "infinitive": "verdwijnen",
     "translation": "εξαφανίζω",
     "ovt1": "",
@@ -2997,7 +3393,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "334",
+    "id": "378",
     "infinitive": "snijden",
     "translation": "κόβω",
     "ovt1": "",
@@ -3006,7 +3402,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "335",
+    "id": "379",
     "infinitive": "lijden",
     "translation": "υποφέρω",
     "ovt1": "",
@@ -3015,7 +3411,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "336",
+    "id": "380",
     "infinitive": "bijten",
     "translation": "δαγκώνω",
     "ovt1": "",
@@ -3024,7 +3420,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "337",
+    "id": "381",
     "infinitive": "bergen",
     "translation": "κρύβω",
     "ovt1": "",
@@ -3033,7 +3429,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "338",
+    "id": "382",
     "infinitive": "zwemmen",
     "translation": "κολυμπάω",
     "ovt1": "",
@@ -3042,7 +3438,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "339",
+    "id": "383",
     "infinitive": "zenden",
     "translation": "στέλνω",
     "ovt1": "",
@@ -3051,7 +3447,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "340",
+    "id": "384",
     "infinitive": "gelden",
     "translation": "ισχύει (απρόσωπο ρήμα)",
     "ovt1": "",
@@ -3060,7 +3456,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "341",
+    "id": "385",
     "infinitive": "melken",
     "translation": "αρμέγω",
     "ovt1": "",
@@ -3069,7 +3465,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "342",
+    "id": "386",
     "infinitive": "bevelen",
     "translation": "διατάζω",
     "ovt1": "",
@@ -3078,7 +3474,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "343",
+    "id": "387",
     "infinitive": "stelen",
     "translation": "κλέβω",
     "ovt1": "",
@@ -3087,7 +3483,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "344",
+    "id": "388",
     "infinitive": "verraden",
     "translation": "προδίδω",
     "ovt1": "",
@@ -3096,7 +3492,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "345",
+    "id": "389",
     "infinitive": "brengen",
     "translation": "φέρνω",
     "ovt1": "",
@@ -3105,7 +3501,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "346",
+    "id": "390",
     "infinitive": "buigen",
     "translation": "λυγίζω (μεταφορικά και κυριολεκτικά)",
     "ovt1": "",
@@ -3114,16 +3510,34 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "347",
+    "id": "391",
     "infinitive": "dragen",
-    "translation": "κουβαλάω\nυπομένω\nφοράω ρούχα",
+    "translation": "κουβαλάω",
     "ovt1": "droeg",
     "ovt2": "groegen",
     "vtt": "hebben gedragen",
     "weight": 1
   },
   {
-    "id": "348",
+    "id": "392",
+    "infinitive": "nan",
+    "translation": "υπομένω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "393",
+    "infinitive": "nan",
+    "translation": "φοράω ρούχα",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "394",
     "infinitive": "opdoen",
     "translation": "φοράω",
     "ovt1": "",
@@ -3132,7 +3546,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "349",
+    "id": "395",
     "infinitive": "graven",
     "translation": "σκάβω",
     "ovt1": "",
@@ -3141,7 +3555,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "350",
+    "id": "396",
     "infinitive": "varen",
     "translation": "κινούμαι πάνω σε κάτι που είναι στο νερό",
     "ovt1": "",
@@ -3150,7 +3564,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "351",
+    "id": "397",
     "infinitive": "genezen",
     "translation": "θεραπεύω",
     "ovt1": "",
@@ -3159,16 +3573,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "352",
+    "id": "398",
     "infinitive": "meten",
-    "translation": "μετράω (μήκος ή μεταφορικά) \nΌΧΙ ΓΙΑ ΝΟΥΜΕΡΑ",
+    "translation": "μετράω (μήκος ή μεταφορικά)",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "353",
+    "id": "399",
+    "infinitive": "nan",
+    "translation": "ΌΧΙ ΓΙΑ ΝΟΥΜΕΡΑ",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "400",
     "infinitive": "vergeten",
     "translation": "ξεχνάω",
     "ovt1": "",
@@ -3177,7 +3600,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "354",
+    "id": "401",
     "infinitive": "sluiten",
     "translation": "κλείνω",
     "ovt1": "",
@@ -3186,7 +3609,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "355",
+    "id": "402",
     "infinitive": "zuipen",
     "translation": "ρουφάω",
     "ovt1": "",
@@ -3195,16 +3618,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "356",
+    "id": "403",
     "infinitive": "ruiken",
-    "translation": "οσφρίζομαι\nμυρίζω",
+    "translation": "οσφρίζομαι",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "357",
+    "id": "404",
+    "infinitive": "nan",
+    "translation": "μυρίζω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "405",
     "infinitive": "hangen",
     "translation": "κρεμάω",
     "ovt1": "",
@@ -3213,7 +3645,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "358",
+    "id": "406",
     "infinitive": "vangen",
     "translation": "πιάνω/αιχμαλωτίζω",
     "ovt1": "",
@@ -3222,16 +3654,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "359",
+    "id": "407",
     "infinitive": "verliezen",
-    "translation": "χάνω\nηττούμαι",
+    "translation": "χάνω",
     "ovt1": "verloor",
     "ovt2": "verlooren",
     "vtt": "hebben verlor",
     "weight": 1
   },
   {
-    "id": "360",
+    "id": "408",
+    "infinitive": "nan",
+    "translation": "ηττούμαι",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "409",
     "infinitive": "vriezen",
     "translation": "παγώνω",
     "ovt1": "",
@@ -3240,7 +3681,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "361",
+    "id": "410",
     "infinitive": "lijden",
     "translation": "υποφέρω",
     "ovt1": "",
@@ -3249,7 +3690,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "362",
+    "id": "411",
     "infinitive": "golden",
     "translation": "ισχύω",
     "ovt1": "",
@@ -3258,25 +3699,43 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "363",
+    "id": "412",
     "infinitive": "misgaan",
-    "translation": "πάει λάθος\nπάει στραβά",
+    "translation": "πάει λάθος",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "364",
+    "id": "413",
+    "infinitive": "nan",
+    "translation": "πάει στραβά",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "414",
     "infinitive": "passen",
-    "translation": "ταιριάζω\nδοκιμάζω ρούχα",
+    "translation": "ταιριάζω",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "365",
+    "id": "415",
+    "infinitive": "nan",
+    "translation": "δοκιμάζω ρούχα",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "416",
     "infinitive": "aanpassen",
     "translation": "προσαρμόζω",
     "ovt1": "",
@@ -3285,7 +3744,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "366",
+    "id": "417",
     "infinitive": "toepassen",
     "translation": "εφαρμόζω",
     "ovt1": "",
@@ -3294,7 +3753,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "367",
+    "id": "418",
     "infinitive": "winkelen",
     "translation": "κάνω ψώνια",
     "ovt1": "",
@@ -3303,7 +3762,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "368",
+    "id": "419",
     "infinitive": "onstaan",
     "translation": "δημιουργούμαι",
     "ovt1": "",
@@ -3312,7 +3771,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "369",
+    "id": "420",
     "infinitive": "gevaarlijk",
     "translation": "",
     "ovt1": "",
@@ -3321,7 +3780,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "370",
+    "id": "421",
     "infinitive": "bezorgen",
     "translation": "",
     "ovt1": "",
@@ -3330,7 +3789,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "371",
+    "id": "422",
     "infinitive": "opleveren",
     "translation": "",
     "ovt1": "",
@@ -3339,7 +3798,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "372",
+    "id": "423",
     "infinitive": "zich afvragen",
     "translation": "αναρωτιέμαι",
     "ovt1": "",
@@ -3348,7 +3807,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "373",
+    "id": "424",
     "infinitive": "hardlopen",
     "translation": "τρέχω",
     "ovt1": "",
@@ -3357,7 +3816,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "374",
+    "id": "425",
     "infinitive": "afkorten",
     "translation": "συντομεύω",
     "ovt1": "",
@@ -3366,7 +3825,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "375",
+    "id": "426",
     "infinitive": "overeenkomen",
     "translation": "συμφωνώ",
     "ovt1": "",
@@ -3375,7 +3834,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "376",
+    "id": "427",
     "infinitive": "attenderen",
     "translation": "παρακολουθώ",
     "ovt1": "",
@@ -3384,7 +3843,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "377",
+    "id": "428",
     "infinitive": "zorgen",
     "translation": "φροντίζω",
     "ovt1": "",
@@ -3393,7 +3852,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "378",
+    "id": "429",
     "infinitive": "onderhouden",
     "translation": "συντηρώ (οικονομικά)",
     "ovt1": "",
@@ -3402,16 +3861,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "379",
+    "id": "430",
     "infinitive": "wagen",
-    "translation": "τολμώ\nρισκάρω",
+    "translation": "τολμώ",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "380",
+    "id": "431",
+    "infinitive": "nan",
+    "translation": "ρισκάρω",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "432",
     "infinitive": "redden",
     "translation": "σώζω",
     "ovt1": "",
@@ -3420,16 +3888,25 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "381",
+    "id": "433",
     "infinitive": "opsplitsen",
-    "translation": "διαχωρίζω\nχωρίζω (ομάδες)",
+    "translation": "διαχωρίζω",
     "ovt1": "",
     "ovt2": "",
     "vtt": "",
     "weight": 1
   },
   {
-    "id": "382",
+    "id": "434",
+    "infinitive": "nan",
+    "translation": "χωρίζω (ομάδες)",
+    "ovt1": "",
+    "ovt2": "",
+    "vtt": "",
+    "weight": 1
+  },
+  {
+    "id": "435",
     "infinitive": "misbruiken",
     "translation": "καταχράζομαι",
     "ovt1": "",
@@ -3438,7 +3915,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "383",
+    "id": "436",
     "infinitive": "breken",
     "translation": "σπάω",
     "ovt1": "brak",
@@ -3447,7 +3924,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "384",
+    "id": "437",
     "infinitive": "preken",
     "translation": "κάνω κήρυγμα",
     "ovt1": "",
@@ -3456,7 +3933,7 @@ const verbsData = [
     "weight": 1
   },
   {
-    "id": "385",
+    "id": "438",
     "infinitive": "zich bemoeien",
     "translation": "ανακατεύομαι",
     "ovt1": "bemoeide",
